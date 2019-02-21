@@ -1,0 +1,30 @@
+{
+    "squadName" : "Super Component Heroes",
+    "hometown" : "Pyami",
+    "formed" : 2018,
+    "secretBase" : "VH 133",
+    "active" : true,
+    "members" : [
+        {
+            "name" : "Interface Man",
+            "age" : 29,
+            "secretIdentity" : "Don Wilson",
+            "strength" : 150,
+            "powers" : ["Minimalism", "Turning Tiny", "Radiation Blast"]
+        },
+        {
+            "name" : "API Flame",
+            "age" : 39,
+            "secretIdentity" : "Jane Wilson",
+            "strength" : 100,
+            "powers" : ["Damage Resistance", "Long Distance Hearing"]
+        },
+        {
+            "name" : "Object Man",
+            "age" : 1000,
+            "secretIdentity" : "Unknown",
+            "strength" : 9000,
+            "powers" : ["Earth Destroyer"]
+        }
+    ]
+}
