@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="aqi.xsl"?>
+<all>
+    <data>
+        <city>Davie</city>
+        <country>USA</country>
+        <current>
+            <pollution>
+                <aqicn>14</aqicn>
+                <aqius>18</aqius>
+                <maincn>o3</maincn>
+                <mainus>o3</mainus>
+                <ts>2019-03-05T01:00:00.000Z</ts>
+            </pollution>
+            <weather>
+                <hu>57</hu>
+                <ic>01n</ic>
+                <pr>1016</pr>
+                <tp>26</tp>
+                <ts>2019-03-05T01:00:00.000Z</ts>
+                <wd>280</wd>
+                <ws>2.6</ws>
+            </weather>
+        </current>
+        <location>
+            <coordinates>-80.3386</coordinates>
+            <coordinates>26.0732</coordinates>
+            <type>Point</type>
+        </location>
+        <state>Florida</state>
+    </data>
+    <status>success</status>
+</all>
