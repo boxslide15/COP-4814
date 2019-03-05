@@ -37,7 +37,8 @@
                     <td><xsl:value-of select="current/pollution/mainus"/></td>
                 </tr>
             </xsl:for-each>
-            <xsl:if test="all/data/current/weather/ic = '01d'">
+        </table>
+        <xsl:if test="all/data/current/weather/ic = '01d'">
             <img src="weather_icons/01d.png" alt="Clear Sky (Day)"></img>
             <figcaption>Clear Sky (Day)</figcaption>
             </xsl:if>
@@ -84,8 +85,8 @@
             <xsl:if test="all/data/current/weather/ic = '50d'">
             <img src="weather_icons/50d.png" alt="Foggy"></img>
             <figcaption>Foggy</figcaption>
-            </xsl:if>
-        </table>
+        </xsl:if>
+        <img src="city.png" alt="City"></img>
     </body>
 </html>
 </xsl:template>
