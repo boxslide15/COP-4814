@@ -1,32 +1,32 @@
 {
     "status": "success",
     "data": {
-        "city": "Davie",
+        "city": "Miami",
         "state": "Florida",
         "country": "USA",
         "location": {
             "type": "Point",
             "coordinates": [
-                -80.3386,
-                26.0732
+                -80.2156,
+                25.7947
             ]
         },
         "current": {
             "weather": {
                 "ts": "2019-03-05T01:00:00.000Z",
-                "hu": 57,
-                "ic": "01n",
-                "pr": 1016,
+                "hu": 51,
+                "ic": "03n",
+                "pr": 1015,
                 "tp": 26,
-                "wd": 280,
-                "ws": 2.6
+                "wd": 250,
+                "ws": 4.1
             },
             "pollution": {
-                "ts": "2019-03-05T01:00:00.000Z",
-                "aqius": 18,
-                "mainus": "o3",
-                "aqicn": 14,
-                "maincn": "o3"
+                "ts": "2019-03-05T00:00:00.000Z",
+                "aqius": 3,
+                "mainus": "n2",
+                "aqicn": 9,
+                "maincn": "n2"
             }
         }
     }
